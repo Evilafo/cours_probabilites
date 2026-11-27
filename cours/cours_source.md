@@ -59,6 +59,8 @@ Chaque chapitre a son notebook Jupyter, qui contient tout le code du document, p
 
 Python ne remplace pas le calcul à la main : à l'examen, c'est la méthode qui est notée. Faites toujours le calcul d'abord, puis vérifiez.
 
+Le cours (PDF et Word), sa source et tous les notebooks sont disponibles sur le dépôt GitHub du cours : [github.com/Evilafo/cours\_probabilites](https://github.com/Evilafo/cours_probabilites). Depuis la page d'accueil du dépôt, chaque notebook s'ouvre directement dans Google Colab, sans rien installer, grâce à son bouton « Open in Colab ». Le tableau « Notebooks disponibles », à la fin du cours, donne aussi le lien de chaque notebook. Pour signaler une erreur ou proposer une amélioration, ouvrez une [issue sur le dépôt](https://github.com/Evilafo/cours_probabilites/issues).
+
 ### Méthode de travail conseillée
 
 1. Lisez le \[N1\] d'une notion, puis fermez le document et essayez de l'expliquer avec vos mots.
@@ -289,7 +291,7 @@ Trois bibliothèques suffisent pour tout le cours : NumPy pour calculer et simul
 
 ### Installer et lancer
 
-- **Sans rien installer** : ouvrez [Google Colab](https://colab.research.google.com), importez le notebook du chapitre et exécutez les cellules. Les trois bibliothèques y sont déjà.
+- **Sans rien installer** : ouvrez [Google Colab](https://colab.research.google.com), chargez le notebook du chapitre depuis le dépôt GitHub du cours (github.com/Evilafo/cours\_probabilites, bouton « Open in Colab ») et exécutez les cellules. Les trois bibliothèques y sont déjà.
 - **Sur votre ordinateur** : installez Anaconda, qui contient Python, Jupyter et les bibliothèques. Sinon, avec Python déjà installé : `pip install numpy scipy matplotlib sympy jupyter`.
 
 Chaque notebook commence par ces imports :
@@ -4394,16 +4396,18 @@ Les Parties 0 à 4, la banque de 40 exercices corrigés et les 10 cas pratiques 
 
 ### Notebooks disponibles
 
-| Fichier | Contenu |
-| --- | --- |
-| 00\_Partie0\_Rappels\_et\_Python.ipynb | SymPy, NumPy, SciPy, simulation, exercices 0.1 à 0.7 |
-| 01\_Chapitre1\_Espace\_probabilise\_denombrement.ipynb | Dénombrement, audit de dossiers, anniversaires, exercices 1.1 à 1.5 |
-| 02\_Chapitre2\_Conditionnement\_Bayes.ipynb | Test médical, bonus-malus, indépendance, exercices 2.1 à 2.5 |
-| 03\_Chapitre3\_Variables\_aleatoires\_F\_S\_quantile.ipynb | Lecture graphique du quantile, inverse généralisé, perte mixte, exercices 3.1 à 3.5 |
-| 04\_Chapitre4\_Esperance\_variance\_moments.ipynb | Prime pure, franchise, E\[X ∣ X > c\], exercices 4.1 à 4.6 |
-| 05\_Partie2\_Lois\_couples\_theoremes\_limites.ipynb | Lois usuelles et queues, couples et covariance, portefeuille, LGN, TCL, mutualisation, exercices 5.1 à 7.4 |
-| 06\_Partie3\_VaR\_TVaR\_modele\_collectif.ipynb | VaR et TVaR (continu, discret, données), queue lourde, sous-additivité, modèle collectif, Panjer, exercices 8.1 à 11.3 |
-| 07\_Partie4\_Monte\_Carlo\_estimation\_backtesting.ipynb | Précision Monte Carlo et bootstrap, ajustement de lois, QQ-plot, backtesting (Kupiec, Bâle), étude de cas, exercices 12.1 à 14.2 |
-| 08\_Banque\_exercices\_verification.ipynb | Vérification numérique des 40 exercices de la banque d'exercices |
-| 09\_Cas\_pratiques.ipynb | Calculs et simulations des 5 cas pratiques complets |
-| 10\_Cas\_pratiques\_6\_a\_10.ipynb | Calculs et simulations des cas pratiques 6 à 10 |
+Tous les notebooks sont dans le dossier [notebooks du dépôt GitHub](https://github.com/Evilafo/cours_probabilites/tree/main/notebooks). Cliquez sur le nom d'un fichier pour le voir sur GitHub, ou sur « Ouvrir dans Colab » pour l'exécuter directement dans votre navigateur. Pour tout télécharger d'un coup : `git clone https://github.com/Evilafo/cours_probabilites.git`, ou bouton « Code » puis « Download ZIP » sur la page du dépôt.
+
+| Fichier | Contenu | Exécuter |
+| --- | --- | --- |
+| [00\_Partie0\_Rappels\_et\_Python.ipynb](https://github.com/Evilafo/cours_probabilites/blob/main/notebooks/00_Partie0_Rappels_et_Python.ipynb) | SymPy, NumPy, SciPy, simulation, exercices 0.1 à 0.7 | [Ouvrir dans Colab](https://colab.research.google.com/github/Evilafo/cours_probabilites/blob/main/notebooks/00_Partie0_Rappels_et_Python.ipynb) |
+| [01\_Chapitre1\_Espace\_probabilise\_denombrement.ipynb](https://github.com/Evilafo/cours_probabilites/blob/main/notebooks/01_Chapitre1_Espace_probabilise_denombrement.ipynb) | Dénombrement, audit de dossiers, anniversaires, exercices 1.1 à 1.5 | [Ouvrir dans Colab](https://colab.research.google.com/github/Evilafo/cours_probabilites/blob/main/notebooks/01_Chapitre1_Espace_probabilise_denombrement.ipynb) |
+| [02\_Chapitre2\_Conditionnement\_Bayes.ipynb](https://github.com/Evilafo/cours_probabilites/blob/main/notebooks/02_Chapitre2_Conditionnement_Bayes.ipynb) | Test médical, bonus-malus, indépendance, exercices 2.1 à 2.5 | [Ouvrir dans Colab](https://colab.research.google.com/github/Evilafo/cours_probabilites/blob/main/notebooks/02_Chapitre2_Conditionnement_Bayes.ipynb) |
+| [03\_Chapitre3\_Variables\_aleatoires\_F\_S\_quantile.ipynb](https://github.com/Evilafo/cours_probabilites/blob/main/notebooks/03_Chapitre3_Variables_aleatoires_F_S_quantile.ipynb) | Lecture graphique du quantile, inverse généralisé, perte mixte, exercices 3.1 à 3.5 | [Ouvrir dans Colab](https://colab.research.google.com/github/Evilafo/cours_probabilites/blob/main/notebooks/03_Chapitre3_Variables_aleatoires_F_S_quantile.ipynb) |
+| [04\_Chapitre4\_Esperance\_variance\_moments.ipynb](https://github.com/Evilafo/cours_probabilites/blob/main/notebooks/04_Chapitre4_Esperance_variance_moments.ipynb) | Prime pure, franchise, E\[X ∣ X > c\], exercices 4.1 à 4.6 | [Ouvrir dans Colab](https://colab.research.google.com/github/Evilafo/cours_probabilites/blob/main/notebooks/04_Chapitre4_Esperance_variance_moments.ipynb) |
+| [05\_Partie2\_Lois\_couples\_theoremes\_limites.ipynb](https://github.com/Evilafo/cours_probabilites/blob/main/notebooks/05_Partie2_Lois_couples_theoremes_limites.ipynb) | Lois usuelles et queues, couples et covariance, portefeuille, LGN, TCL, mutualisation, exercices 5.1 à 7.4 | [Ouvrir dans Colab](https://colab.research.google.com/github/Evilafo/cours_probabilites/blob/main/notebooks/05_Partie2_Lois_couples_theoremes_limites.ipynb) |
+| [06\_Partie3\_VaR\_TVaR\_modele\_collectif.ipynb](https://github.com/Evilafo/cours_probabilites/blob/main/notebooks/06_Partie3_VaR_TVaR_modele_collectif.ipynb) | VaR et TVaR (continu, discret, données), queue lourde, sous-additivité, modèle collectif, Panjer, exercices 8.1 à 11.3 | [Ouvrir dans Colab](https://colab.research.google.com/github/Evilafo/cours_probabilites/blob/main/notebooks/06_Partie3_VaR_TVaR_modele_collectif.ipynb) |
+| [07\_Partie4\_Monte\_Carlo\_estimation\_backtesting.ipynb](https://github.com/Evilafo/cours_probabilites/blob/main/notebooks/07_Partie4_Monte_Carlo_estimation_backtesting.ipynb) | Précision Monte Carlo et bootstrap, ajustement de lois, QQ-plot, backtesting (Kupiec, Bâle), étude de cas, exercices 12.1 à 14.2 | [Ouvrir dans Colab](https://colab.research.google.com/github/Evilafo/cours_probabilites/blob/main/notebooks/07_Partie4_Monte_Carlo_estimation_backtesting.ipynb) |
+| [08\_Banque\_exercices\_verification.ipynb](https://github.com/Evilafo/cours_probabilites/blob/main/notebooks/08_Banque_exercices_verification.ipynb) | Vérification numérique des 40 exercices de la banque d'exercices | [Ouvrir dans Colab](https://colab.research.google.com/github/Evilafo/cours_probabilites/blob/main/notebooks/08_Banque_exercices_verification.ipynb) |
+| [09\_Cas\_pratiques.ipynb](https://github.com/Evilafo/cours_probabilites/blob/main/notebooks/09_Cas_pratiques.ipynb) | Calculs et simulations des cas pratiques 1 à 5 | [Ouvrir dans Colab](https://colab.research.google.com/github/Evilafo/cours_probabilites/blob/main/notebooks/09_Cas_pratiques.ipynb) |
+| [10\_Cas\_pratiques\_6\_a\_10.ipynb](https://github.com/Evilafo/cours_probabilites/blob/main/notebooks/10_Cas_pratiques_6_a_10.ipynb) | Calculs et simulations des cas pratiques 6 à 10 | [Ouvrir dans Colab](https://colab.research.google.com/github/Evilafo/cours_probabilites/blob/main/notebooks/10_Cas_pratiques_6_a_10.ipynb) |
