@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Fichiers de compilation LaTeX
+*.aux
+*.log
+*.out
+*.toc
+
+# Systèmes
+.DS_Store
+Thumbs.db
